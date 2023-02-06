@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PDTS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PDTS>
+    <SHORT_TEXT>ztt_call_exc</SHORT_TEXT>
+    <PLVAR>01</PLVAR>
+    <METHOD>
+     <OTYPE>TS</OTYPE>
+     <OBJID>90100307</OBJID>
+     <CLSNAM>ZTT_CL_WF_CALL_EXCEPTION</CLSNAM>
+     <CLSMET>RV_VBELN</CLSMET>
+     <METHTYPE>CL</METHTYPE>
+     <BACKGROUND>X</BACKGROUND>
+     <SYNCHRON>X</SYNCHRON>
+    </METHOD>
+    <METHOD_BINDING>
+     <HRS1214>
+      <OTYPE>TS</OTYPE>
+      <OBJID>90100307</OBJID>
+      <SUBTY>0001</SUBTY>
+      <DATAFLOW>E</DATAFLOW>
+      <TAB_INDEX>000001</TAB_INDEX>
+      <EXPR>&amp;IV_VBELN&amp;</EXPR>
+      <TARGETEXPR>&amp;IV_VBELN&amp;</TARGETEXPR>
+      <OPERATION>ASN</OPERATION>
+      <OPCLASS>E</OPCLASS>
+     </HRS1214>
+     <HRS1214>
+      <OTYPE>TS</OTYPE>
+      <OBJID>90100307</OBJID>
+      <SUBTY>0001</SUBTY>
+      <DATAFLOW>I</DATAFLOW>
+      <TAB_INDEX>000002</TAB_INDEX>
+      <EXPR>&amp;R_VBELN&amp;</EXPR>
+      <TARGETEXPR>&amp;R_VBELN&amp;</TARGETEXPR>
+      <OPERATION>ASN</OPERATION>
+      <OPCLASS>E</OPCLASS>
+     </HRS1214>
+    </METHOD_BINDING>
+   </PDTS>
+   <CONTAINER>
+    <CONTAINER>
+     <PROPERTIES>
+      <OWN_ID>
+       <INSTID>TS90100307</INSTID>
+       <TYPEID>CL_SWF_CNT_HRS_PERSISTENCE</TYPEID>
+       <CATID>CL</CATID>
+      </OWN_ID>
+      <PROPSTRING>23</PROPSTRING>
+      <XMLVERSION>0002</XMLVERSION>
+      <INTERNAL>X</INTERNAL>
+      <EXDEFINITN>
+       <NAME>_DEF_EXT</NAME>
+       <POR>
+        <INSTID>DIALOG_STEP_CONTAINER</INSTID>
+        <TYPEID>CL_SWF_CNT_PERSISTENCE_DEF_EXT</TYPEID>
+        <CATID>CL</CATID>
+       </POR>
+      </EXDEFINITN>
+     </PROPERTIES>
+     <ELEMENTS>
+      <N NAME="R_VBELN::" TYPE="::VBELN_VA:C:10:0" PROPS="0C000501"/>
+      <O NAME="IV_VBELN::" TYPE="::VBELN_VA:C:10:0" PROPS="0C001001"/>
+     </ELEMENTS>
+    </CONTAINER>
+   </CONTAINER>
+  </asx:values>
+ </asx:abap>
+</abapGit>

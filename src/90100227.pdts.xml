@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PDTS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PDTS>
+    <SHORT_TEXT>ZWF_ST_LEAV</SHORT_TEXT>
+    <PLVAR>01</PLVAR>
+    <WI_TEXT>Employee Manager</WI_TEXT>
+    <METHOD>
+     <OTYPE>TS</OTYPE>
+     <OBJID>90100227</OBJID>
+     <CLSNAM>ZTT_CL_WF_LEAVE_REQUEST</CLSNAM>
+     <CLSMET>LV_MANAGER</CLSMET>
+     <METHTYPE>CL</METHTYPE>
+     <BACKGROUND>X</BACKGROUND>
+     <SYNCHRON>X</SYNCHRON>
+    </METHOD>
+    <METHOD_BINDING>
+     <HRS1214>
+      <OTYPE>TS</OTYPE>
+      <OBJID>90100227</OBJID>
+      <SUBTY>0001</SUBTY>
+      <DATAFLOW>E</DATAFLOW>
+      <TAB_INDEX>000001</TAB_INDEX>
+      <EXPR>&amp;LV_EMP_ID&amp;</EXPR>
+      <TARGETEXPR>&amp;LV_EMP_ID&amp;</TARGETEXPR>
+      <OPERATION>ASN</OPERATION>
+      <OPCLASS>E</OPCLASS>
+     </HRS1214>
+     <HRS1214>
+      <OTYPE>TS</OTYPE>
+      <OBJID>90100227</OBJID>
+      <SUBTY>0001</SUBTY>
+      <DATAFLOW>I</DATAFLOW>
+      <TAB_INDEX>000002</TAB_INDEX>
+      <EXPR>&amp;LV_MANAGER&amp;</EXPR>
+      <TARGETEXPR>&amp;LV_MANAGER&amp;</TARGETEXPR>
+      <OPERATION>ASN</OPERATION>
+      <OPCLASS>E</OPCLASS>
+     </HRS1214>
+    </METHOD_BINDING>
+   </PDTS>
+   <CONTAINER>
+    <CONTAINER>
+     <PROPERTIES>
+      <OWN_ID>
+       <INSTID>TS90100227</INSTID>
+       <TYPEID>CL_SWF_CNT_HRS_PERSISTENCE</TYPEID>
+       <CATID>CL</CATID>
+      </OWN_ID>
+      <PROPSTRING>23</PROPSTRING>
+      <XMLVERSION>0002</XMLVERSION>
+      <INTERNAL>X</INTERNAL>
+      <EXDEFINITN>
+       <NAME>_DEF_EXT</NAME>
+       <POR>
+        <INSTID>DIALOG_STEP_CONTAINER</INSTID>
+        <TYPEID>CL_SWF_CNT_PERSISTENCE_DEF_EXT</TYPEID>
+        <CATID>CL</CATID>
+       </POR>
+      </EXDEFINITN>
+     </PROPERTIES>
+     <ELEMENTS>
+      <N NAME="LV_MANAGER::" TYPE="::CHAR25:C:25:0" PROPS="0C000501"/>
+      <O NAME="LV_EMP_ID::" TYPE="::PERNR_D:N:8:0" PROPS="0C001001"/>
+     </ELEMENTS>
+    </CONTAINER>
+   </CONTAINER>
+  </asx:values>
+ </asx:abap>
+</abapGit>

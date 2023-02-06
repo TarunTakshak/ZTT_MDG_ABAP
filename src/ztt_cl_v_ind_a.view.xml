@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_VIEW" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD25V>
+    <VIEWNAME>ZTT_CL_V_IND_A</VIEWNAME>
+    <AS4LOCAL>A</AS4LOCAL>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <AGGTYPE>V</AGGTYPE>
+    <ROOTTAB>ZTT_CL_INDEPE_A</ROOTTAB>
+    <DDTEXT>Client independent view with delivery class A</DDTEXT>
+    <VIEWCLASS>C</VIEWCLASS>
+    <CUSTOMAUTH>A</CUSTOMAUTH>
+    <GLOBALFLAG>X</GLOBALFLAG>
+   </DD25V>
+   <DD26V_TABLE>
+    <DD26V>
+     <VIEWNAME>ZTT_CL_V_IND_A</VIEWNAME>
+     <TABNAME>ZTT_CL_INDEPE_A</TABNAME>
+     <TABPOS>0001</TABPOS>
+     <FORTABNAME>ZTT_CL_INDEPE_A</FORTABNAME>
+    </DD26V>
+   </DD26V_TABLE>
+   <DD27P_TABLE>
+    <DD27P>
+     <VIEWFIELD>ACCOUNT_NO</VIEWFIELD>
+     <TABNAME>ZTT_CL_INDEPE_A</TABNAME>
+     <FIELDNAME>ACCOUNT_NO</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+    </DD27P>
+    <DD27P>
+     <VIEWFIELD>ID</VIEWFIELD>
+     <TABNAME>ZTT_CL_INDEPE_A</TABNAME>
+     <FIELDNAME>ID</FIELDNAME>
+    </DD27P>
+    <DD27P>
+     <VIEWFIELD>BRANCH_ID</VIEWFIELD>
+     <TABNAME>ZTT_CL_INDEPE_A</TABNAME>
+     <FIELDNAME>BRANCH_ID</FIELDNAME>
+    </DD27P>
+   </DD27P_TABLE>
+  </asx:values>
+ </asx:abap>
+</abapGit>

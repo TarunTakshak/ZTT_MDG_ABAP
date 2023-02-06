@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_IEXT" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <IEXT>
+    <ATTRIBUTES>
+     <DESCRP>Extension for Customer master</DESCRP>
+     <FIRSTTYP>ZTT_IDOC_EX_KNA1</FIRSTTYP>
+     <LASTTYP>ZTT_IDOC_EX_KNA1</LASTTYP>
+     <IDOCTYP>DEBMAS01</IDOCTYP>
+    </ATTRIBUTES>
+    <T_SYNTAX>
+     <EDI_IAPI03>
+      <REFSEGTYP>E1KNVVM</REFSEGTYP>
+      <NR>0001</NR>
+      <SEGTYP>ZTT_SEG_KNA1</SEGTYP>
+      <MUSTFL>X</MUSTFL>
+      <OCCMIN>0000000001</OCCMIN>
+      <OCCMAX>0000000002</OCCMAX>
+      <HLEVEL>02</HLEVEL>
+     </EDI_IAPI03>
+    </T_SYNTAX>
+   </IEXT>
+  </asx:values>
+ </asx:abap>
+</abapGit>

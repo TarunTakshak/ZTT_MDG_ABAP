@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZTT_MSG_RERFERNCE</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Message Class for Reference data lookup</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZTT_MSG_RERFERNCE</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>DATA NOT FOUND &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZTT_MSG_RERFERNCE</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>DATA FOUND</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZTT_MSG_RERFERNCE</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Invalid fieldname</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZTT_MSG_RERFERNCE</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Data Inserted Sucessfully</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZTT_MSG_RERFERNCE</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Data not Inserted</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZTT_MSG_RERFERNCE</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Data Updated Sucessfully</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZTT_MSG_RERFERNCE</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Data Not Updated</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZTT_MSG_RERFERNCE</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Data deleted Sucessfully</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZTT_MSG_RERFERNCE</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Data not deleted</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZTT_MSG_RERFERNCE</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Invalid Email-ID</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZTT_MSG_RERFERNCE</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>INVALID TABLE-NAME &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZTT_MSG_RERFERNCE</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>INVALID STRUCTURE-NAME &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZTT_MSG_RERFERNCE</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>INVALID TABLE/STRUCTURE-NAME/Field-name &amp;</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>
